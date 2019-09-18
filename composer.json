@@ -1,0 +1,37 @@
+{
+    "name": "guojiangclub/haggle-rule",
+    "type": "library",
+    "description": "GuoJiang Club's haggle rule",
+    "keywords": [
+        "GuoJiang Club",
+        "component"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shjchen",
+            "email": "i@chenhow.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.5",
+        "orchestra/database": "~3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuoJiangClub\\HaggleRule\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GuoJiangClub\\HaggleRule\\Test\\": "tests/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
